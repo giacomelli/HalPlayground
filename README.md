@@ -20,7 +20,7 @@ Features
 
 Using
 ===
-Starts scene Assets/Playground/PlaygroundScene to see all avaiable toys or starts the scenes inside each Assets/Toys subfolders to see a specific toy directly.
+Starts scene Assets/Playground/PlaygroundScene to see all available toys or starts the scenes inside each Assets/Toys subfolders to see a specific toy directly.
 
 --------
 
