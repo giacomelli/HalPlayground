@@ -1,22 +1,21 @@
 using UnityEngine;
-using System.Collections;
 
+/// <summary>
+/// Fireball toy script.
+/// </summary>
 public class FireballToyScript : MonoBehaviour
 {
-    #region Constantes
+    #region Constants
     private const float MinForce = -25;
     private const float MaxForce = 25;
     #endregion
-
+	
+	#region Editor properties
     public GameObject Fireball;
+	#endregion
 
-    
-	private void Start () 
-    {
-	    
-	}
-
-    private void Update()
+	#region Methods
+	private void Update()
     {
         if (Input.GetKeyUp(KeyCode.Space))
         {
@@ -24,14 +23,16 @@ public class FireballToyScript : MonoBehaviour
         }
     }
 
-    private void CreateFireball()
-    {
-        GameObject fireball = (GameObject) Instantiate(Fireball);
-        fireball.rigidbody.AddForce(
-            Random.Range(MinForce, MaxForce), 
-            Random.Range(MinForce, MaxForce),
-            Random.Range(MinForce, MaxForce), 
+    private void CreateFireball ()
+	{
+		GameObject fireball = (GameObject)Instantiate (Fireball);
+		Camera.main.GetComponent<SmoothLookAt> ().target = fireball.transform;
+		
+		fireball.rigidbody.AddForce (
+            Random.Range (MinForce, MaxForce), 
+            Random.Range (MinForce, MaxForce),
+            Random.Range (MinForce, MaxForce), 
             ForceMode.Impulse);
-    }
-
+	}
+	#endregion
 }

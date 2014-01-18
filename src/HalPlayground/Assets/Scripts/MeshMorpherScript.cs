@@ -1,3 +1,5 @@
+// Original source code from: http://wiki.unity3d.com/index.php?title=MeshMorpher
+
 using UnityEngine;
 
 /// REALLY IMPORTANT NOTE.

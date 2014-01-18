@@ -18,6 +18,13 @@ Features
  
 --------
 
+Demo
+===
+Take a look on our [live demo](src/HalPlayground/Players/Web/HalPlayground/HalPlayground.html).
+
+--------
+
+
 Using
 ===
 Starts scene Assets/Playground/PlaygroundScene to see all available toys or starts the scenes inside each Assets/Toys subfolders to see a specific toy directly.

@@ -3,14 +3,14 @@ using UnityEngine;
 #endregion
 
 /// <summary>
-/// Realiza o swap (troca) entre duas câmeras.
+/// Performs the swap betwen two cameras.
 /// <remarks>
-/// Controla automaticamente a alteração de tamanho e profundidade entre as câmeras.
+/// Controls the size and deep changes between the two cameras.
 /// </remarks>
 /// </summary>
 public class SwapCamerasScript : MonoBehaviour
 {
-    #region Campos
+    #region Field
     private float m_firstCameraDepth;
     private Rect m_firstCameraRect;
     private Transform m_firstCameraTransform;
@@ -20,12 +20,12 @@ public class SwapCamerasScript : MonoBehaviour
     private Transform m_secondCameraTransform;
     #endregion
 
-    #region Propriedades
+    #region Editor propertie
     public Camera FirstCamera;
     public Camera SecondCamera;
     #endregion
 
-    #region Métodos
+    #region Method
     private void Start () 
     {
         m_firstCameraDepth = FirstCamera.depth;

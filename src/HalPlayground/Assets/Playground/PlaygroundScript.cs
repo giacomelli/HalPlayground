@@ -41,10 +41,10 @@ public class PlaygroundScript : MonoBehaviour
     		Application.LoadLevel("MorphScene");
     	}
 
-        //if (GUILayout.Button("Neon"))
-    	//{
-    	//    Application.LoadLevel("NeonScene");
-    	//}
+        if (GUILayout.Button("Neon"))
+    	{
+    	    Application.LoadLevel("NeonScene");
+    	}
 
         if (ApplicationHelper.IsDesktoPlatform && GUILayout.Button("Quit"))
     	{
