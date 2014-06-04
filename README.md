@@ -5,6 +5,13 @@ A sandbox to test and share some Unity 3D samples
 
 --------
 
+Demo
+===
+
+Take a look on our [live demo](https://rawgithub.com/giacomelli/HalPlayground/master/src/HalPlayground/Players/Web/HalPlayground/HalPlayground.html).
+
+---------
+
 Features
 ===
  - Toys (aka: samples)
