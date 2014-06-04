@@ -9,21 +9,34 @@ Features
 ===
  - Toys (aka: samples)
  	- Auto deform mesh
+ 	
+	![](docs/screenshots/AutoDeformMesh.png)
+
  	- Bolt particle system
+ 	
+	![](docs/screenshots/BoltParticleSystem.png)
+
  	- Cell shading
+ 	
+ 	![](docs/screenshots/CellShading.png)
+
  	- Fireball particle system
+ 	
+	![](docs/screenshots/FireballParticleSystem.png)
+
  	- Mesh deformation
+ 	
+	![](docs/screenshots/MeshDeformation.png)
+
  	- Morph
+ 	
+	![](docs/screenshots/Morph.png)
+
  	- Neon particle system
+ 	
+	![](docs/screenshots/NeonParticleSystem.png)
  
 --------
-
-Demo
-===
-Take a look on our [live demo](https://rawgithub.com/giacomelli/HalPlayground/master/src/HalPlayground/Players/Web/HalPlayground/HalPlayground.html).
-
---------
-
 
 Using
 ===
@@ -40,7 +53,6 @@ Compatility
 
 Roadmap
 -------- 
- - Add web player to this page.
  - Test on Android.
  - Add new toys.
  
